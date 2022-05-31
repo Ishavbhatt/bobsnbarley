@@ -18,7 +18,7 @@ const Navbar = () => {
                 <div className="col-lg-3 col-md-3 col-sm-12 logo">
                   <Link className="navbar-brand" href="/">
                     <img
-                      src="/header-logo.png"
+                      src="/header-logo.svg"
                       alt="Logo"
                       className="logo img-fluid"
                     />
@@ -35,7 +35,7 @@ const Navbar = () => {
                           <li>
                             <Link href="/about-us">about us</Link>
                           </li>
-                          {/* <li>
+                          <li>
                             <Link href="/room-suites">room & suits</Link>
                           </li>
                           <li>
@@ -48,7 +48,7 @@ const Navbar = () => {
                           </li>
                           <li>
                             <Link href="/restaurant">restaurant</Link>
-                          </li> */}
+                          </li>
                           {/* <li>
                             <Link href="/Healthsafety">health & safety</Link>
                           </li> */}
@@ -74,7 +74,7 @@ const Navbar = () => {
                      <a target="_blank">Book Now</a>
                     </Link>
                     <div className="common_arrow">
-                      <img src="/images/arrow.svg" alt="Icon" />
+                      <img src="arrow-forward.svg" alt="Icon" />
                     </div>
                   </div>
                 </div>
