@@ -86,30 +86,30 @@ function Contactus() {
           <div className="row">
             <Slide top>
               <div className="col-lg-4 col-md-4 col-sm-12 contact_left">
-                <div className="footer_address_right_inner">
+                <div className="footer_address_right_inner footer_link_black">
                   <div>
                     <h2 className="cont-head-col">ADDRESS</h2>
-                    <p>
+                    <p className="black">
                       Naddi, McLeod Ganj, Dharamshala, Himachal Pradesh 176219
                     </p>
                   </div>
                   <div>
                     <h2 className="cont-head-col">PHONE NUMBER</h2>
-                    <p>
+                    <p className="black">
                       <a href="tel:9805814000">+91 - 98058 14000</a>
                     </p>
                   </div>
                   <div>
                     <h2 className="cont-head-col">RESERVATION</h2>
-                    <p>
+                    <p className="black">
                       <a href="mailto:info@bobsnbarley.com">
                         info@bobsnbarley.com{" "}
                       </a>
                     </p>
                   </div>
                   <a
-                    href="https://www.google.com/maps/dir//Golden+Fern+Resort,+Taradevi+Rd,+Bagh,+Shimla,+Himachal+Pradesh+171004/@31.0891678,77.1405961,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3905796a89448473:0xed76ee25a9bdb157!2m2!1d77.1405961!2d31.0891678"
-                    className=" common_btn"
+                    href="https://www.google.com/maps/place/BobsnBarley+-+Hotel+and+Restaurant/@32.2491403,76.3039932,17z/data=!3m1!4b1!4m8!3m7!1s0x391b57300701cb85:0x54e0b7ec4c3c1572!5m2!4m1!1i2!8m2!3d32.2491403!4d76.3061819"
+                    className="common_btn"
                   >
                     GET DIRECTIONS
                   </a>
@@ -120,7 +120,7 @@ function Contactus() {
               <Link
                 className="pointer"
                 href={
-                  "https://www.google.com/maps/place/Golden+Fern+Resort/@31.0891837,77.1406142,17z/data=!3m1!4b1!4m8!3m7!1s0x3905796a89448473:0xed76ee25a9bdb157!5m2!4m1!1i2!8m2!3d31.0891837!4d77.1406142"
+                  "https://www.google.com/maps/place/BobsnBarley+-+Hotel+and+Restaurant/@32.2491403,76.3039932,17z/data=!3m1!4b1!4m8!3m7!1s0x391b57300701cb85:0x54e0b7ec4c3c1572!5m2!4m1!1i2!8m2!3d32.2491403!4d76.3061819"
                 }
               >
                 <a target="_blank">
@@ -203,8 +203,8 @@ function Contactus() {
                     <label className="form-check-label" htmlFor="exampleCheck1">
                       I have read the
                       <a className="a-span" href="/Privacypolicy">
-                        Bob's N Barley
-                      </a>
+                      &nbsp;Bob's N Barley&nbsp;
+                      </a> 
                       policies and I accept the use and treatment of my personal
                       data.
                     </label>

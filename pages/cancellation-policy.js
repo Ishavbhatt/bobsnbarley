@@ -34,8 +34,8 @@ function Cancellationpolicy() {
       <section className="attraction_section common_page_header">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 col-md-12 col-sm-12 common_page_header_title">
-              <p>Customers can call customer service to request a refund.</p>
+            <div className="col-lg-12 col-md-12 col-sm-12 privacy_column">
+              <h3>Customers can call customer service to request a refund.</h3>
             </div>
           </div>
         </div>

@@ -94,7 +94,7 @@ function Attractionactivities() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 col-sm-12 text-left">
-              <h2 className="golden_title">Attractions</h2>
+              <h2 className="red_title">Attractions</h2>
             </div>
             <div className="owl-carousel owl-theme owl-loaded attraction_slider">
               <OwlCarousel
@@ -226,7 +226,7 @@ function Attractionactivities() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 col-sm-12 text-left">
-              <h2 className="golden_title">Activities</h2>
+              <h2 className="red_title">Activities</h2>
             </div>
             <div className="owl-carousel owl-theme owl-loaded activities_slider">
               <OwlCarousel
@@ -248,7 +248,18 @@ function Attractionactivities() {
                     </div>
                   </div>
                 </div>
-
+                <div className="activity-item">
+                  <div className="attraction_column item_5">
+                    <div className="attraction_column_title">
+                      <h3>TREKKING TOUR</h3>
+                      <p className="attraction-para">
+                        The beautiful and mysterious ranges of the Himalayas are
+                        just the ideal sites for you to try your hand at the
+                        trekking spot in Dharamshala. 
+                      </p>
+                    </div>
+                  </div>
+                </div>
                 <div className="activity-item">
                   <div className="attraction_column item_5">
                     <div className="attraction_column_title">
@@ -271,19 +282,6 @@ function Attractionactivities() {
                         Paragliding is an adventure sport of flying para-gliders
                         like birds and enjoys the view of beautiful mountains
                         around Dharamshala &#038; Bir Billing.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="activity-item">
-                  <div className="attraction_column item_5">
-                    <div className="attraction_column_title">
-                      <h3>TREKKING TOUR</h3>
-                      <p className="attraction-para">
-                        The beautiful and mysterious ranges of the Himalayas are
-                        just the ideal sites for you to try your hand at the
-                        trekking spot in Dharamshala. 
                       </p>
                     </div>
                   </div>

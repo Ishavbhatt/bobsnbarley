@@ -24,7 +24,7 @@ function Footer() {
               <div className="col-md-4 col-sm-4 col-xs-12 footer_address_left">
                 <div className="footer_address_left_inner">
                   <div className="f_logo">
-                    <img src="/footer.png" alt="logo" />
+                    <img src="/footer-logo.png" alt="logo" />
                   </div>
                   <div className="f_newsletter">
                     <h4 className="text-uppercase">SUBSCRIBE OUR NEWSLETTER</h4>
@@ -35,7 +35,7 @@ function Footer() {
                         onChange={(e) => validateEmail(e)}
                       />
                       <button type="submit" className="common_arrow">
-                        <img src="/arrow.svg" alt="Icon" />
+                        <img src="/arrow-forward-outline.svg" alt="Icon" />
                       </button>
                     </form>
                     <span
@@ -71,7 +71,7 @@ function Footer() {
                 </div>
               </div>
               <div className="col-md-8 col-sm-8 col-xs-12 footer_address_right">
-                <div className="footer_address_right_inner">
+                <div className="footer_address_right_inner footer_link_white">
                   <div>
                     <h4 className="text-uppercase">ADDRESS</h4>
                     <p>

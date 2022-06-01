@@ -18,7 +18,7 @@ const Navbar = () => {
                 <div className="col-lg-3 col-md-3 col-sm-12 logo">
                   <Link className="navbar-brand" href="/">
                     <img
-                      src="/header-logo.svg"
+                      src="/bobs-n-barley-final-logo.svg"
                       alt="Logo"
                       className="logo img-fluid"
                     />
@@ -42,9 +42,6 @@ const Navbar = () => {
                             <Link href="/attractions-and-activities">
                               Attraction & Activities
                             </Link>
-                          </li>
-                          <li>
-                            <Link href="/wedding">wedding</Link>
                           </li>
                           <li>
                             <Link href="/restaurant">restaurant</Link>
@@ -74,7 +71,7 @@ const Navbar = () => {
                      <a target="_blank">Book Now</a>
                     </Link>
                     <div className="common_arrow">
-                      <img src="arrow-forward.svg" alt="Icon" />
+                      <img src="/arrow-forward-outline.svg" alt="Icon" />
                     </div>
                   </div>
                 </div>
@@ -94,7 +91,7 @@ const Navbar = () => {
             <div className="mobile-header-div">
               <div className=" col-lg-3 col-md-3 col-sm-10 logo">
                 <Link className="navbar-brand" href="/">
-                  <img src="/logo.png" alt="Logo" className="logo img-fluid" />
+                  <img src="/bobs-n-barley-final-logo.svg" alt="Logo" className="logo img-fluid" />
                 </Link>
               </div>
               <div>
@@ -158,17 +155,6 @@ const Navbar = () => {
                           </a>
                         </Link>
                       </li>
-                      <li className="mobile-view-lists">
-                        <Link href="/wedding">
-                          <a
-                            onClick={handleIsActive}
-                            className="mobile-view-lists-clr"
-                          >
-                            Wedding
-                          </a>
-                        </Link>
-                      </li>
-                      
                       <li className="mobile-view-lists">
                         <Link href="/contact-us">
                           <a

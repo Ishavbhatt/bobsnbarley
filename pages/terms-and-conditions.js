@@ -28,8 +28,8 @@ function Termsandconditions() {
       <section className="common_page_header">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 col-md-12 col-sm-12 common_page_header_title">
-              <p>Welcome to the website of Bob’s N Barley, Mcleodganj.</p>
+            <div className="col-lg-12 col-md-12 col-sm-12 privacy_column">
+            <h3>Welcome to the website of Bob’s N Barley, Mcleodganj.</h3>
             </div>
           </div>
         </div>

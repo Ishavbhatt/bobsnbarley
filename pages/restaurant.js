@@ -80,7 +80,7 @@ function Restaurant() {
                     <Fade top>
                       <div className="col-md-6 col-sm-12 about_hotel_text">
                         <h3 className="common_title">
-                          <span className="golden_color">
+                          <span className="red_color">
                             An Ambient Dining Experiance
                           </span>
                         </h3>
@@ -97,7 +97,7 @@ function Restaurant() {
                             <a>View Menu</a>
                           </Link>
                           <div className="common_arrow">
-                            <img src="/images/arrow.svg" alt="Icon" />
+                            <img src="arrow-forward-outline.svg" alt="Icon" />
                           </div>
                         </div>
                       </div>
@@ -118,7 +118,7 @@ function Restaurant() {
                     <Fade top>
                       <div className="col-md-6 col-sm-12 about_hotel_text">
                         <h3 className="common_title">
-                          <span className="golden_color">
+                          <span className="red_color">
                             Traditional & Family Reciepe
                           </span>
                         </h3>
@@ -136,7 +136,7 @@ function Restaurant() {
                             <a>Make Reservation</a>
                           </Link>
                           <div className="common_arrow">
-                            <img src="/images/arrow.svg" alt="Icon" />
+                          <img src="arrow-forward-outline.svg" alt="Icon" />
                           </div>
                         </div>
                       </div>
@@ -153,7 +153,7 @@ function Restaurant() {
         <div className="container">
           <div className="row">
             <div className="text-left">
-              <h2 className="golden_title">Restaurant Gallery</h2>
+              <h2 className="red_title">Restaurant Gallery</h2>
             </div>
             <div className="owl-carousel owl-theme owl-loaded restaurant-slider">
               <OwlCarousel

@@ -77,6 +77,32 @@ export default function Home() {
       },
     },
   };
+  const blogs = {
+    center: true,
+    margin: 20,
+    items: 3,
+    loop: true,
+    dots: true,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+        // nav: true,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+      },
+      600: {
+        items: 3,
+        dots: true,
+      },
+      1000: {
+        items: 3,
+        dots: true,
+        loop: true,
+      },
+    },
+  };
 
   // define handler change function on check-in date
   const handleCheckInDate = (date) => {
@@ -126,7 +152,6 @@ export default function Home() {
   //   fetchFeeds();
   // }, []);
 
-
   return (
     <div>
       <Head>
@@ -148,7 +173,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-         <div className="container">
+        <div className="container">
           <div className="bnr-booking">
             <div className="check-in-out-container">
               <div className="pick-dates">
@@ -198,7 +223,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="/images/arrow.svg" alt="Icon" />
+                    <img src="/arrow-forward.svg" alt="Icon" />
                   </a>
                 </div>
               </div>
@@ -229,9 +254,9 @@ export default function Home() {
             <Fade top>
               <div className="col-lg-5 col-md-5 col-sm-12 about_hotel_text">
                 <h2 className="common_title">
-                  We’re gonna make this place your home
+                  Bobs N Barley <br></br> Naddi
                   <a className="common_arrow" href="/about-us">
-                    <img src="/arrow.svg" alt="Icon" />
+                    <img src="/arrow-forward-outline.svg" alt="Icon" />
                   </a>
                 </h2>
                 <p>
@@ -240,13 +265,7 @@ export default function Home() {
                   and 28 minutes from Dharamshala. The hotel is a perfect
                   weekend getaway near Dharamshala where guests enjoy
                   unparalleled facilities for relaxation and rejuvenation in the
-                  scenic Dhauladhar Hills. There are always small touches that
-                  enhance the experience when you stay with us. Hotel Bob’s n
-                  barley is the part of the Eco Hospitality. Book your relaxing
-                  stay with us at and experience our heartfelt services and
-                  enjoy your luxurious, comfortable & memorable stay. Hotel
-                  Bob’s N Barley restaurants promise a unique experience of
-                  cuisines.
+                  scenic Dhauladhar Hills.
                 </p>
               </div>
             </Fade>
@@ -277,7 +296,7 @@ export default function Home() {
                 <div className="index-room-item">
                   <div className="rooms_slider_column row">
                     <div className="col-md-7 columns">
-                      <div className="rooms_slider_image executive_slider_image">
+                      <div className="rooms_slider_image premium_slider_image">
                         <div className="room_price">
                           <p>rates from</p>
                           <h2>&#8377; 6500 /</h2>
@@ -299,7 +318,7 @@ export default function Home() {
                           className="common_arrow"
                           href="/room-suites/executive-room"
                         >
-                          <img src="/arrow.svg" alt="Icon" />
+                          <img src="/arrow-forward-outline.svg" alt="Icon" />
                         </a>
                       </div>
                     </div>
@@ -308,7 +327,7 @@ export default function Home() {
                 <div className="index-room-item">
                   <div className="rooms_slider_column row">
                     <div className="col-md-7 columns ">
-                      <div className="rooms_slider_image classic_room_slider">
+                      <div className="rooms_slider_image super_deluxe_slider_image">
                         <div className="room_price">
                           <p>rates from</p>
                           <h2>&#8377; 400 /</h2>
@@ -331,7 +350,7 @@ export default function Home() {
                           className="common_arrow"
                           href="/room-suites/classic-room"
                         >
-                          <img src="/arrow.svg" alt="Icon" />
+                          <img src="/arrow-forward-outline.svg" alt="Icon" />
                         </a>
                       </div>
                     </div>
@@ -340,7 +359,7 @@ export default function Home() {
                 <div className="index-room-item">
                   <div className="rooms_slider_column row">
                     <div className="col-md-7 columns ">
-                      <div className="rooms_slider_image luxury_room_slider">
+                      <div className="rooms_slider_image deluxe_slider_image">
                         <div className="room_price">
                           <p>rates from</p>
                           <h2>&#8377; 3500 /</h2>
@@ -361,7 +380,7 @@ export default function Home() {
                           className="common_arrow"
                           href="/room-suites/luxury-room"
                         >
-                          <img src="/arrow.svg" alt="Icon" />
+                          <img src="/arrow-forward-outline.svg" alt="Icon" />
                         </a>
                       </div>
                     </div>
@@ -395,9 +414,7 @@ export default function Home() {
                       We had a 3 nights stay at Bob'snBarley... Staff is
                       extremely courteous. Food was very tasty they happily
                       accepted and provided our special requests for the dishes
-                      especially Chinese n Idli too. Rooms are clean n view is
-                      superb.Location is perfect.Overall amazing
-                      experience.Highly recommended.
+                      especially Chinese n Idli too.
                     </p>
                   </div>
                   <div className="triangle"></div>
@@ -414,8 +431,7 @@ export default function Home() {
                       Clean rooms and tasty foods of In-house
                       restaurantBeautiful scenic view of DAULADAR MOUNTAIN
                       RangeWith awesome staff and their serviceWith polite and
-                      humble peopleWhen visit DHARAMSHALADo have a stay at this
-                      beautiful hotel
+                      humble peopleWhen visit DHARAMSHALA.
                     </p>
                   </div>
                   <div className="triangle"></div>
@@ -432,9 +448,7 @@ export default function Home() {
                       Best place to stay in Mcleodganj. A big shout-out to the
                       Manager and support staff who were extremely
                       courteous,humble and quick in service.Food was delicious
-                      and view from the room was superb. Rooms were big in size
-                      and were very neat and clean.I can't wait to come back
-                      here again Highly recommended!!
+                      and view from the room was superb.
                     </p>
                   </div>
                   <div className="triangle"></div>
@@ -451,7 +465,7 @@ export default function Home() {
                       Rooms were very neat and clean and big in size. Hotel
                       staff including manager was very humble and courteous.
                       There was variety in breakfast and main course with
-                      awesome taste. View from room was also very beautiful.{" "}
+                      awesome taste. View from room was also very beautiful.
                     </p>
                   </div>
                   <div className="triangle"></div>
@@ -462,6 +476,55 @@ export default function Home() {
                   </div>
                 </div>
               </OwlCarousel>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="posts_section common_padding">
+        <div className="container">
+          <div className="row">
+            <Fade top big>
+              <h2 className="common_title">
+                Stay Update with <br /> Golden Fern
+              </h2>
+              <div className="flex-between">
+                <div className="col-lg-6 col-md-6 col-sm-12 ">
+                  <p>
+                    All rooms and suites are elegantly appointed and reflect
+                    unpretentious luxury and stylish className with wooden
+                    flooring.
+                  </p>
+                </div>
+              </div>
+            </Fade>
+            <div className="clearfix"></div>
+            <OwlCarousel {...blogs}>
+              <div className="post_column">
+                <div className="post_column_image"></div>
+                <p>on 22 Nov, 2021 / by admin</p>
+                <h4>Disclosing the Secrets of Success in Golden fern</h4>
+                <a href="/#">READ MORE</a>
+              </div>
+
+              <div className="post_column">
+                <div className="post_column_image"></div>
+                <p>on 22 Nov, 2021 / by admin</p>
+                <h4>Disclosing the Secrets of Success in Golden fern</h4>
+                <a href="/#">READ MORE</a>
+              </div>
+
+              <div className="post_column">
+                <div className="post_column_image"></div>
+                <p>on 22 Nov, 2021 / by admin</p>
+                <h4>Disclosing the Secrets of Success in Golden fern</h4>
+                <a href="/#">READ MORE</a>
+              </div>
+            </OwlCarousel>
+
+            <div className="posts_section_btn">
+              <a href="/#" className="common_btn">
+                VIEW ALL POSTS
+              </a>
             </div>
           </div>
         </div>

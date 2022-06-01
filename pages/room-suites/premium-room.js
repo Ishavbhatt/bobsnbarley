@@ -57,7 +57,7 @@ function PremiumRoom() {
         />
       </Head>
 
-      <div className="single-room-banner exec-singleroom-banner"></div>
+      <div className="single-room-banner premium-singleroom-banner"></div>
 
       <section className="about_hotel room_page_desc common_padding pb-0">
         <div className="container">
@@ -69,7 +69,7 @@ function PremiumRoom() {
                 <span>per night + 12% Tax</span>
               </div>
               <h1>
-                <span className="golden_color">Premium </span>Room
+                <span className="red_color">Premium </span>Room
               </h1>
               <p>
               A premium room is anything that the hotel deems is better than their standard, whether it is a higher floor, corner room, balcony, refrigerator, larger room, better view, etc. It means the room has more facilities than the standard room.
@@ -153,7 +153,7 @@ function PremiumRoom() {
       <section className="single-room-sec other_room_section single-room">
         <div className="container">
           <div className="row">
-            <div className="executive-room-section">
+            <div className="premium-room-section">
               <OwlCarousel
                 className="gallery-owl-theme owl-theme"
                 nav
@@ -163,7 +163,7 @@ function PremiumRoom() {
                   <div
                     className="singleroom_slider_col"
                     style={{
-                      backgroundImage: "url('/all-rooms/Executive/exe-1.jpg')",
+                      backgroundImage: "url('/Premium/gallery-1.jpg')",
                     }}
                   ></div>
                 </div>
@@ -171,7 +171,7 @@ function PremiumRoom() {
                   <div
                     className="singleroom_slider_col"
                     style={{
-                      backgroundImage: "url('/all-rooms/Executive/exe-2.jpg')",
+                      backgroundImage: "url('/Premium/gallery-2.jpg')",
                     }}
                   ></div>
                 </div>
@@ -180,7 +180,7 @@ function PremiumRoom() {
                   <div
                     className="singleroom_slider_col"
                     style={{
-                      backgroundImage: "url('/all-rooms/Executive/exe-3.jpg')",
+                      backgroundImage: "url('/Premium/gallery-3.jpg')",
                     }}
                   ></div>
                 </div>
@@ -188,7 +188,7 @@ function PremiumRoom() {
                   <div
                     className="singleroom_slider_col"
                     style={{
-                      backgroundImage: "url('/all-rooms/Executive/exe-4.jpg')",
+                      backgroundImage: "url('/Premium/gallery-4.jpg')",
                     }}
                   ></div>
                 </div>
@@ -196,23 +196,7 @@ function PremiumRoom() {
                   <div
                     className="singleroom_slider_col"
                     style={{
-                      backgroundImage: "url('/Washroom/washroom-3.jpg')",
-                    }}
-                  ></div>
-                </div>
-                <div className="executive-item">
-                  <div
-                    className="singleroom_slider_col"
-                    style={{
-                      backgroundImage: "url('/Washroom/washroom-4.jpg')",
-                    }}
-                  ></div>
-                </div>
-                <div className="executive-item">
-                  <div
-                    className="singleroom_slider_col"
-                    style={{
-                      backgroundImage: "url('/Washroom/washroom-5.jpg')",
+                      backgroundImage: "url('/Premium/gallery-5.jpg')",
                     }}
                   ></div>
                 </div>
@@ -226,7 +210,7 @@ function PremiumRoom() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 col-sm-12 text-left">
-              <h2 className="golden_title">Other Room Types</h2>
+              <h2 className="red_title">Other Room Types</h2>
             </div>
             <div className="activities_slider">
               <OwlCarousel
@@ -239,11 +223,11 @@ function PremiumRoom() {
                   <div className="other-item">
                     <div
                       className="attraction_column"
-                      style={{ backgroundImage: "url('/homepage-deluxe.jpg')" }}
+                      style={{ backgroundImage: "url('/Deluxe/deluxe-category.jpg')" }}
                     >
-                      <a href="/room-suits/deluxe-room">
+                      <a href="/room-suites/deluxe-room">
                         <div className="attraction_column_title otherroom_title">
-                          <h3>DELUXE ROOM</h3>
+                          <h3>Deluxe Room</h3>
                         </div>
                       </a>
                     </div>
@@ -255,12 +239,12 @@ function PremiumRoom() {
                     <div
                       className="attraction_column"
                       style={{
-                        backgroundImage: "url('/homepage-classic.jpeg')",
+                        backgroundImage: "url('/Super-deluxe/super-deluxe.jpg')",
                       }}
                     >
-                      <a href="/room-suits/super-deluxe-room">
+                      <a href="/room-suites/super-deluxe-room">
                         <div className="attraction_column_title otherroom_title">
-                          <h3>Super Deluxe ROOM</h3>
+                          <h3>Super Deluxe Room</h3>
                         </div>
                       </a>
                     </div>

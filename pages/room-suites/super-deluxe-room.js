@@ -45,7 +45,7 @@ function SuperDeluxeROom() {
   return (
     <>
       <Head>
-        <title>Classic Rooms | Bob's N Barley</title>
+        <title>Super Deluxe Room | Bob's N Barley</title>
         <link rel="icon" href="/favicon.png" />
         <meta
           property="og:title"
@@ -57,7 +57,7 @@ function SuperDeluxeROom() {
         />
       </Head>
 
-      <div className="single-room-banner clas-singleroom-banner"></div>
+      <div className="single-room-banner super-deluxe-singleroom-banner"></div>
 
       <section className="about_hotel room_page_desc common_padding pb-0">
         <div className="container">
@@ -69,7 +69,7 @@ function SuperDeluxeROom() {
                 <span>per night + 12% Tax</span>
               </div>
               <h1>
-                <span className="golden_color">Super Deluxe </span>Room
+                <span className="red_color">Super Deluxe </span>Room
               </h1>
               <p>
               The Super deluxe hotel room is finely decorated for your luxurious stay and contains all basic amenities such as Color LCD with Cable, Large windows for the perfect valley views, cozy double bed, Resting chair, Dressing mirror, Mini Fridge, and 24 hrs running hot and cold water.
@@ -165,7 +165,7 @@ function SuperDeluxeROom() {
                     className="singleroom_slider_col"
                     style={{
                       backgroundImage:
-                        "url('/all-rooms/classic/classic-room-1.jpg')",
+                        "url('/Super-deluxe/gallery-1.jpg')",
                     }}
                   ></div>
                 </div>
@@ -174,7 +174,7 @@ function SuperDeluxeROom() {
                     className="singleroom_slider_col"
                     style={{
                       backgroundImage:
-                        "url('/all-rooms/classic/classic-room-2.jpg')",
+                      "url('/Super-deluxe/gallery-2.jpg')",
                     }}
                   ></div>
                 </div>
@@ -184,7 +184,7 @@ function SuperDeluxeROom() {
                     className="singleroom_slider_col"
                     style={{
                       backgroundImage:
-                        "url('/all-rooms/classic/classic-room-3.jpg')",
+                      "url('/Super-deluxe/gallery-3.jpg')",
                     }}
                   ></div>
                 </div>
@@ -194,7 +194,7 @@ function SuperDeluxeROom() {
                     className="singleroom_slider_col"
                     style={{
                       backgroundImage:
-                        "url('/all-rooms/classic/classic-room-4.jpg')",
+                      "url('/Super-deluxe/gallery-4.jpg')",
                     }}
                   ></div>
                 </div>
@@ -202,23 +202,7 @@ function SuperDeluxeROom() {
                   <div
                     className="singleroom_slider_col"
                     style={{
-                      backgroundImage: "url('/Washroom/washroom-1.jpg')",
-                    }}
-                  ></div>
-                </div>
-                <div className="executive-item">
-                  <div
-                    className="singleroom_slider_col"
-                    style={{
-                      backgroundImage: "url('/Washroom/washroom-2.jpg')",
-                    }}
-                  ></div>
-                </div>
-                <div className="executive-item">
-                  <div
-                    className="singleroom_slider_col"
-                    style={{
-                      backgroundImage: "url('/Washroom/washroom-6.jpg')",
+                      backgroundImage: "url('/Super-deluxe/gallery-5.jpg')",
                     }}
                   ></div>
                 </div>
@@ -232,7 +216,7 @@ function SuperDeluxeROom() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 col-sm-12 text-left">
-              <h2 className="golden_title">Other Room Types</h2>
+              <h2 className="red_title">Other Room Types</h2>
             </div>
             <div className="activities_slider">
               <OwlCarousel
@@ -245,9 +229,9 @@ function SuperDeluxeROom() {
                   <div className="other-item">
                     <div
                       className="attraction_column"
-                      style={{ backgroundImage: "url('/homepage-deluxe.jpg')" }}
+                      style={{ backgroundImage: "url('/Premium/premium-category.jpg')" }}
                     >
-                      <a href="/room-suits/premium-room">
+                      <a href="/room-suites/premium-room">
                         <div className="attraction_column_title otherroom_title">
                           <h3>Premium ROOM</h3>
                         </div>
@@ -260,12 +244,12 @@ function SuperDeluxeROom() {
                     <div
                       className="attraction_column"
                       style={{
-                        backgroundImage: "url('/homepage-executive.jpg')",
+                        backgroundImage: "url('/Deluxe/deluxe-category.jpg')",
                       }}
                     >
-                      <a href="/room-suits/deluxe-room">
+                      <a href="/room-suites/deluxe-room">
                         <div className="attraction_column_title otherroom_title">
-                          <h3>Deluxe ROOM</h3>
+                          <h3>Deluxe Room</h3>
                         </div>
                       </a>
                     </div>

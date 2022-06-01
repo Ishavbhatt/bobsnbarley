@@ -9,7 +9,7 @@ function roomsuites() {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      setScroll(window.scrollY >= 1900);
+      setScroll(window.scrollY >= 1400);
       console.log("scrooll in");
     });
   }, []);
@@ -56,13 +56,13 @@ function roomsuites() {
                 id="sidebar"
               >
                 <li className="scrool-items">
-                  <Link href="#room1">Premium Room</Link>
+                  <Link href="#room1">PREMIUM ROOM</Link>
                 </li>
                 <li className="scrool-items">
-                  <Link href="#room2">Super Deluxe Room</Link>
+                  <Link href="#room2">SUPER DELUXE ROOM</Link>
                 </li>
                 <li className="scrool-items">
-                  <Link href="#room3">Deluxe Room</Link>
+                  <Link href="#room3">DELUXE ROOM</Link>
                 </li>
               </Scrollspy>
             </div>
@@ -74,20 +74,19 @@ function roomsuites() {
                     <div className="row">
                       <Fade bottom>
                         <div className="col-lg-7 col-md-7 col-sm-12 about_hotel_right text-center">
-                          <div className="about_hotel_image executive"></div>
+                          <div className="about_hotel_image premium"></div>
                         </div>
                       </Fade>
                       <Fade top>
                         <div className="col-lg-5 col-md-5 col-sm-12 about_hotel_text">
-                          <h2 className="common_title">Premium Room</h2>
+                          <h2 className="common_title">PREMIUM ROOM</h2>
                           <p> A premium room is anything that the hotel deems is better than their standard, whether it is a higher floor, corner room, balcony, refrigerator, larger room, better view, etc. It means the room has more facilities than the standard room.
                           </p>
                           <a
                             className="common_arrow"
                             href="/room-suites/premium-room"
                           >
-                            <img src="/arrow.svg" alt="Icon" />
-                          </a>
+<img src="/arrow-forward-outline.svg" alt="Icon" />                          </a>
                         </div>
                       </Fade>
                     </div>
@@ -101,13 +100,13 @@ function roomsuites() {
                     <div className="row">
                       <Fade bottom>
                         <div className="col-lg-7 col-md-7 col-sm-12 about_hotel_right text-center">
-                          <div className="about_hotel_image classic"></div>
+                          <div className="about_hotel_image super-deluxe"></div>
                         </div>
                       </Fade>
                       <Fade top>
                         <div className="col-lg-5 col-md-5 col-sm-12 about_hotel_text">
                           <h2 className="common_title">
-                          Super Deluxe Room
+                          SUPER DELUXE ROOM
                           </h2>
                           <p>
                           The Super deluxe hotel room is finely decorated for your luxurious stay and contains all basic amenities such as Color LCD with Cable, Large windows for the perfect valley views, cozy double bed, Resting chair, Dressing mirror, Mini Fridge, and 24 hrs running hot and cold water …
@@ -116,7 +115,7 @@ function roomsuites() {
                             className="common_arrow"
                             href="/room-suites/super-deluxe-room"
                           >
-                            <img src="/arrow.svg" alt="Icon" />
+                           <img src="/arrow-forward-outline.svg" alt="Icon" />
                           </a>
                         </div>
                       </Fade>
@@ -131,13 +130,13 @@ function roomsuites() {
                     <div className="row">
                       <Fade bottom>
                         <div className="col-lg-7 col-md-7 col-sm-12 about_hotel_right text-center">
-                          <div className="about_hotel_image luxury"></div>
+                          <div className="about_hotel_image deluxe"></div>
                         </div>
                       </Fade>
                       <Fade top>
                         <div className="col-lg-5 col-md-5 col-sm-12 about_hotel_text">
                           <h2 className="common_title">
-                          Deluxe Room
+                          DELUXE ROOM
                           </h2>
                           <p>
                           A functionally arranged living space with furnishings such as a writing desk and parlor style chairs, and a spacious bathroom provide a leisurely feel. Deluxe Rooms are available on the Penthouse floor as well.
@@ -146,7 +145,7 @@ function roomsuites() {
                             className="common_arrow"
                             href="/room-suites/deluxe-room"
                           >
-                            <img src="images/arrow.svg" alt="Icon" />
+                           <img src="/arrow-forward-outline.svg" alt="Icon" />
                           </a>
                         </div>
                       </Fade>

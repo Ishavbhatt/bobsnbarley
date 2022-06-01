@@ -47,19 +47,19 @@ function DeluxeRoom() {
   return (
     <>
       <Head>
-        <title>Deluxe Rooms At Low Price | Golden Fern Resort</title>
+        <title>Deluxe Rooms At Low Price | Bob's N Barley</title>
         <link rel="icon" href="/favicon.png" />
         <meta
           property="og:title"
-          content="Deluxe Rooms At Low Price | Golden Fern Resort"
+          content="Deluxe Rooms At Low Price | Bob's N Barley"
         />
         <meta
           property="og:description"
-          content="Deluxe Rooms have been designed elegantly as per the requirement of the guests. The average size of the room is 350 Sq. feet | Golden Fern Resort"
+          content="Deluxe Rooms have been designed elegantly as per the requirement of the guests. The average size of the room is 350 Sq. feet | Bob's N Barley"
         />
       </Head>
 
-      <div className="single-room-banner del-singleroom-banner"></div>
+      <div className="single-room-banner deluxe-singleroom-banner"></div>
 
       <section className="about_hotel room_page_desc common_padding pb-0">
         <div className="container">
@@ -71,7 +71,7 @@ function DeluxeRoom() {
                 <span>per night + 12% Tax</span>
               </div>
               <h1>
-                <span className="golden_color">Deluxe</span> Room
+                <span className="red_color">Deluxe</span> Room
               </h1>
               <p>
               A functionally arranged living space with furnishings such as a writing desk and parlor style chairs, and a spacious bathroom provide a leisurely feel. Deluxe Rooms are available on the Penthouse floor as well.
@@ -165,7 +165,7 @@ function DeluxeRoom() {
                   <div
                     className="singleroom_slider_col"
                     style={{
-                      backgroundImage: "url('/all-rooms/Deluxe/deluxe-1.jpg')",
+                      backgroundImage: "url('/Deluxe/gallery-1.jpg')",
                     }}
                   ></div>
                 </div>
@@ -173,7 +173,7 @@ function DeluxeRoom() {
                   <div
                     className="singleroom_slider_col"
                     style={{
-                      backgroundImage: "url('/all-rooms/Deluxe/deluxe-2.jpg')",
+                      backgroundImage: "url('/Deluxe/gallery-2.jpg')",
                     }}
                   ></div>
                 </div>
@@ -181,7 +181,7 @@ function DeluxeRoom() {
                   <div
                     className="singleroom_slider_col"
                     style={{
-                      backgroundImage: "url('/Washroom/washroom-1.jpg')",
+                      backgroundImage: "url('/Deluxe/gallery-3.jpg')",
                     }}
                   ></div>
                 </div>
@@ -189,7 +189,7 @@ function DeluxeRoom() {
                   <div
                     className="singleroom_slider_col"
                     style={{
-                      backgroundImage: "url('/Washroom/washroom-2.jpg')",
+                      backgroundImage: "url('/Deluxe/gallery-4.jpg')",
                     }}
                   ></div>
                 </div>
@@ -197,7 +197,15 @@ function DeluxeRoom() {
                   <div
                     className="singleroom_slider_col"
                     style={{
-                      backgroundImage: "url('/Washroom/washroom-6.jpg')",
+                      backgroundImage: "url('/Deluxe/gallery-5.jpg')",
+                    }}
+                  ></div>
+                </div>
+                <div className="executive-item">
+                  <div
+                    className="singleroom_slider_col"
+                    style={{
+                      backgroundImage: "url('/Deluxe/gallery-6.jpg')",
                     }}
                   ></div>
                 </div>
@@ -211,7 +219,7 @@ function DeluxeRoom() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 col-sm-12 text-left">
-              <h2 className="golden_title">Other Room Types</h2>
+              <h2 className="red_title">Other Room Types</h2>
             </div>
             <div className="activities_slider">
               <OwlCarousel
@@ -224,11 +232,11 @@ function DeluxeRoom() {
                   <div className="other-item">
                     <div
                       className="attraction_column"
-                      style={{ backgroundImage: "url('/homepage-luxury.jpg')" }}
+                      style={{ backgroundImage: "url('/Super-deluxe/super-deluxe.jpg')" }}
                     >
-                      <a href="/room-suits/deluxe-room">
+                      <a href="/room-suites/deluxe-room">
                         <div className="attraction_column_title otherroom_title">
-                          <h3>SUPER DELUXE ROOM</h3>
+                          <h3>Super Deluxe Room</h3>
                         </div>
                       </a>
                     </div>
@@ -240,12 +248,12 @@ function DeluxeRoom() {
                     <div
                       className="attraction_column"
                       style={{
-                        backgroundImage: "url('/homepage-executive.jpg')",
+                        backgroundImage: "url('/Premium/premium-category.jpg')",
                       }}
                     >
-                      <a href="/room-suits/premium-room">
+                      <a href="/room-suites/premium-room">
                         <div className="attraction_column_title otherroom_title">
-                          <h3>PREMIUM ROOM</h3>
+                          <h3>Premium Room</h3>
                         </div>
                       </a>
                     </div>

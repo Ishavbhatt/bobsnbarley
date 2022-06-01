@@ -7,7 +7,7 @@ function Aboutus() {
   return (
     <>
       <Head>
-        <title>About Bob's N Marley</title>
+        <title>About Bob's N Barley</title>
         <meta property="og:title" content="About Bob's N Marley" />
         <meta
           property="og:description"

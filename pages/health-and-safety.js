@@ -37,7 +37,7 @@ function Healthsafety() {
             <div className="row">
               <Fade bottom>
               <div className="col-md-6 col-sm-12 safety_section_text">
-                <h2 className="white">Mandatory Use of Safety Gears</h2>
+                <h2>Mandatory Use of Safety Gears</h2>
                 <ul>
                   <li>
                     Mandatory use of protective gear including masks, gloves and
@@ -68,7 +68,7 @@ function Healthsafety() {
             <div className="row">
             <Fade bottom>
               <div className="col-md-6 col-sm-12 safety_section_text">
-                <h2 className="white">Proper Sanitation</h2>
+                <h2>Proper Sanitation</h2>
                 <ul>
                   <li>
                     Cleaning of all high-touch points like door handles,
@@ -103,7 +103,7 @@ function Healthsafety() {
             <div className="row">
             <Fade bottom>
               <div className="col-md-6 col-sm-12 safety_section_text">
-                <h2 className="white">Food & Hygiene</h2>
+                <h2>Food & Hygiene</h2>
                 <ul>
                   <li>Restaurant seating to ensure social distancing</li>
                   <li>
@@ -138,7 +138,7 @@ function Healthsafety() {
             <div className="row">
               <Fade bottom>
               <div className="col-md-6 col-sm-12 safety_section_text">
-                <h2 className="white">Contact Free Interaction</h2>
+                <h2>Contact Free Interaction</h2>
                 <ul>
                   <li>
                     Contactless check in and check out facility provided with
