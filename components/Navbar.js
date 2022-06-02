@@ -66,7 +66,7 @@ const Navbar = () => {
                       data-bs-toggle="modal"
                       target="_blank"
                       data-bs-target="#exampleModal"
-                      href="https://goldenfernresort.bookingjini.com/property"
+                      href="/contact-us"
                     >
                      <a target="_blank">Book Now</a>
                     </Link>
@@ -91,7 +91,7 @@ const Navbar = () => {
             <div className="mobile-header-div">
               <div className=" col-lg-3 col-md-3 col-sm-10 logo">
                 <Link className="navbar-brand" href="/">
-                  <img src="/bobs-n-barley-final-logo.svg" alt="Logo" className="logo img-fluid" />
+                  <img src="/header-logo.png" alt="Logo" className="logo" />
                 </Link>
               </div>
               <div>

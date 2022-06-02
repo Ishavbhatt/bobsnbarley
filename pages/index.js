@@ -164,14 +164,11 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12">
-                {/* <h2 className="animate__animated animate__bounce">
-                  Experience
-                </h2>
-                <h2>NATURE</h2>
-                <h2>in its purest form.</h2> */}
+              <Fade bottom>
                 <h1 className="page__title"> 
                 Experience <span><br />Nature</span><br /> it is purification
                 </h1>
+                </Fade>
               </div>
             </div>
           </div>
@@ -222,7 +219,7 @@ export default function Home() {
               <div className="banner-book-btn pick-dates popup-book-btn">
                 <div className="common_arrow">
                   <a
-                    href="https://goldenfernresort.bookingjini.com/property"
+                    href="/contact-us"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -244,7 +241,7 @@ export default function Home() {
                   <span>&#176;</span>
                   <span>C</span>
                 </h3>
-                <h6 className="weather-name">{data.name}, India</h6>
+                <h6 className="weather-name">Naddi, Dharamshala</h6>
               </div>
             )}
           </div>

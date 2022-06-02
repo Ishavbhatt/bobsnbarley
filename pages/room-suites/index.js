@@ -35,7 +35,7 @@ function roomsuites() {
             <div className="col-lg-10 col-md-10 col-sm-12 common_page_header_title pages-info">
               <h1 className="common_title white">Rooms & Suites</h1>
               <p className="rooms-subtitle">
-                The rooms at Golden Fern are designed with simple, timeless
+                The rooms at Bob's N Barley are designed with simple, timeless
                 lines. Here you may find all the commodities needed for a
                 comfortable stay. All rooms are non-smoking.
               </p>

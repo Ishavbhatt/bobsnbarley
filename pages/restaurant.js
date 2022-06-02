@@ -42,11 +42,11 @@ function Restaurant() {
   return (
     <>
       <Head>
-        <title>Restaurant | Golden Fern Resort</title>
-        <meta property="og:title" content="About Golden Fern Resort" />
+        <title>Restaurant | Bob's N Marley</title>
+        <meta property="og:title" content="About Bob's N Marley" />
         <meta
           property="og:description"
-          content="Golden Fern Resort Shimla ideally located on Shimla Kalka Highway at Kachi Ghati, just 4 km away from the city Centre The Mall Road."
+          content="Bob's N Marley Shimla ideally located on Shimla Kalka Highway at Kachi Ghati, just 4 km away from the city Centre The Mall Road."
         />
       </Head>
 
@@ -56,7 +56,7 @@ function Restaurant() {
             <div className="col-lg-10 col-md-10 col-sm-12 common_page_header_title pages-info">
               <h1 className="common_title white">Our Restaurant</h1>
               <p className="about-subtitle">
-                The rooms at Golden Fern are designed with simple, timeless
+                The rooms at Bob's N Marley are designed with simple, timeless
                 lines. Here you may find all the commodities needed for a
                 comfortable stay. All rooms are non-smoking.
               </p>
@@ -89,8 +89,7 @@ function Restaurant() {
                           all floors, with a private balcony and city view the
                           executive rooms are spacious with all modern amenities
                           and furnishing to meet the desired level of the
-                          satisfaction of the esteemed guests at Golden Fern
-                          Resort Shimla.
+                          satisfaction of the esteemed guests at Bob's N Marley Naddi.
                         </p>
                         <div className="res_link_btn text-capitalize">
                           <Link href="/menu">
@@ -127,8 +126,7 @@ function Restaurant() {
                           all floors, with a private balcony and city view the
                           executive rooms are spacious with all modern amenities
                           and furnishing to meet the desired level of the
-                          satisfaction of the esteemed guests at Golden Fern
-                          Resort Shimla.
+                          satisfaction of the esteemed guests at Bob's N Marley.
                         </p>
 
                         <div className="res_link_btn text-capitalize">

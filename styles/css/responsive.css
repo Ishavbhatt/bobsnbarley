@@ -89,7 +89,7 @@
     font-size: 30px;
   }
   .logo img {
-    max-width: 155px;
+    max-width: 85px;
     position: relative;
     z-index: 99;
   }
@@ -113,7 +113,7 @@
     transform: translateX(100%);
   }
   .navbar-collapse {
-    background-color: #e29554;
+    background-color: #D92D32;
     position: fixed;
     top: 0px;
     right: 0px;
@@ -177,7 +177,7 @@
     margin: 0;
     background-color: #22302a;
     text-align: center;
-    box-shadow: 0px -1px 2px #e29554;
+    box-shadow: 0px -1px 2px #D92D32;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -530,7 +530,7 @@
     .attraction_column_title::after {
     border-top: 57px solid transparent;
     border-bottom: 0 solid transparent;
-    border-left: 40px solid #e2955499;
+    border-left: 40px solid #D92D3299;
     right: -40px;
   }
   .carousel-root {

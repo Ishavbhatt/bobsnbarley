@@ -56,11 +56,11 @@ body .booked-wzsp-prime-data .booked-wzsp-day-val {
   position: relative;
   z-index: 99;
   background: #ffffff7a;
-  padding: 10px 25px;
+  padding: 10px;
   box-shadow: none;
   width: 160px;
   float: right;
-  bottom: 160px;
+  bottom: 145px;
 }
 .weather-date {
   font-size: 12px;
@@ -572,7 +572,7 @@ body .header .navbar-collapse {
 }
 .banner_text h1 {
   color: #fff;
-  font-size: 78px;
+  font-size: 48px;
   /* text-shadow: 2px 2px #ff0000; */
 }
 .bnr-booking {
@@ -1166,6 +1166,9 @@ body .header .navbar-collapse {
   margin-bottom: 5px !important;
 }
 .footer_link_white p, .footer_link_white a {
+  color: #fff;
+}
+.footer_link_white a:hover {
   color: #fff;
 }
 .footer_link_black, .footer_link_black a {
