@@ -333,7 +333,7 @@ export default function Home() {
                       <div className="rooms_slider_image super_deluxe_slider_image">
                         <div className="room_price">
                           <p>rates from</p>
-                          <h2>&#8377; 400 /</h2>
+                          <h2>&#8377; 4000 /</h2>
                           <span>per night + 12% Tax</span>
                         </div>
                       </div>
@@ -505,21 +505,21 @@ export default function Home() {
               <div className="post_column">
                 <div className="post_column_image"></div>
                 <p>on 22 Nov, 2021 / by admin</p>
-                <h4>Disclosing the Secrets of Success in Golden fern</h4>
+                <h4>Disclosing the Secrets of Success in Bob's N Barley</h4>
                 <a href="/#">READ MORE</a>
               </div>
 
               <div className="post_column">
                 <div className="post_column_image"></div>
                 <p>on 22 Nov, 2021 / by admin</p>
-                <h4>Disclosing the Secrets of Success in Golden fern</h4>
+                <h4>Disclosing the Secrets of Success in Bob's N Barley</h4>
                 <a href="/#">READ MORE</a>
               </div>
 
               <div className="post_column">
                 <div className="post_column_image"></div>
                 <p>on 22 Nov, 2021 / by admin</p>
-                <h4>Disclosing the Secrets of Success in Golden fern</h4>
+                <h4>Disclosing the Secrets of Success in Bob's N Barley</h4>
                 <a href="/#">READ MORE</a>
               </div>
             </OwlCarousel>

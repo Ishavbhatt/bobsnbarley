@@ -187,7 +187,8 @@
   }
   .about_hotel,
   .wedding_col,
-  .restaurant_col {
+  .restaurant_col,
+  .about_hotel_col {
     padding: 30px 0;
   }
   .about_hotel_text .common_arrow {
@@ -439,12 +440,14 @@
 
   .spy_section .about_hotel .container,
   .spy_section .wedding_col .container,
-  .spy_section .restaurant_col .container {
+  .spy_section .restaurant_col .container, 
+  .spy_section .about_hotel_col .container {
     padding: 0px;
   }
   .spy_section .about_hotel,
   .spy_section .wedding_col,
-  .spy_section .restaurant_col {
+  .spy_section .restaurant_col,
+  .spy_section .about_hotel_col {
     padding: 30px 0;
   }
   .scrollspy-example {
@@ -643,7 +646,8 @@
 
   .about_hotel,
   .wedding_col,
-  .restaurant_col {
+  .restaurant_col,
+  .about_hotel_col {
     padding-bottom: 70px;
   }
   .menu-btn,

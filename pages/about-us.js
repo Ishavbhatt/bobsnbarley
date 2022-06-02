@@ -31,18 +31,18 @@ function Aboutus() {
       </section>
 
       <section className="scrollspy-example common_padding w-100">
-
-        <div className="about-section-col spy_section">
+        <div className="spy_section">
+          <div className="about_hotel_col">
           <div className="container">
             <div className="row">
               <div className="col-md-6 col-sm-12 wedding_services_right">
-                <div className="wedding_services_image who-we-are"></div>
+                <div className="wedding_services_image about-hotel"></div>
               </div>
               <Slide right>
                 <div className="col-md-6 col-sm-12 about_hotel_text">
-                  <h3 className="common_title">
-                    <span className="golden_color">Who We</span> Are
-                  </h3>
+                  <h2 className="common_title">
+                    Who We Are
+                  </h2>
                   <p>
                   Hotel Bob’s N Barley is located within easy driving distance from Dharamshala, it is just 54 minutes from Kangra Airport and 28 minutes from Dharamshala. The hotel is a perfect weekend getaway near Dharamshala where guests enjoy unparalleled facilities for relaxation and rejuvenation in the scenic Dhauladhar Hills.
                   </p>
@@ -53,17 +53,19 @@ function Aboutus() {
               </Slide>
             </div>
           </div>
+          </div>
+          
         </div>
 
-        <div className="about-section-col spy_section">
+        <div className="spy_section">
+          <div className="about_hotel_col">
           <div className="container">
             <div className="row justify-center">
               <Slide left>
                 <div className="col-md-6 col-sm-12 about_hotel_text">
-                  <h3 className="common_title">
-                    <span className="golden_color">About Shimla</span> Hill
-                    Station
-                  </h3>
+                  <h2 className="common_title">
+                    About Dharamshala
+                  </h2>
                   <p>
                   At Bob’s n Barley, we believe that sharing knowledge and expertise will not only be helpful to us but to the society and in our case, the hospitality sector at large. So, we came up with Consultancy services under Rajan Sharma having a plethora of experience in hand to be provided to our customers looking for guidance and advice
                   </p>
@@ -75,10 +77,11 @@ function Aboutus() {
               </Slide>
               {/* <Slide right> */}
               <div className="col-md-6 col-sm-12 wedding_services_right">
-                <div className="about_hotel_image shimla-hill-station"></div>
+                <div className="about_hotel_image about-dharamshala"></div>
               </div>
               {/* </Slide> */}
             </div>
+          </div>
           </div>
         </div>
         
