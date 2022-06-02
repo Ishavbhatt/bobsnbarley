@@ -164,11 +164,14 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12">
-                <h2 className="animate__animated animate__bounce">
+                {/* <h2 className="animate__animated animate__bounce">
                   Experience
                 </h2>
                 <h2>NATURE</h2>
-                <h2>in its purest form.</h2>
+                <h2>in its purest form.</h2> */}
+                <h1 className="page__title"> 
+                Experience <span><br />Nature</span><br /> it is purification
+                </h1>
               </div>
             </div>
           </div>
