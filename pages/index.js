@@ -488,7 +488,7 @@ export default function Home() {
           <div className="row">
             <Fade top big>
               <h2 className="common_title">
-                Stay Update with <br /> Golden Fern
+                Stay Update with <br /> Bob's N Barley
               </h2>
               <div className="flex-between">
                 <div className="col-lg-6 col-md-6 col-sm-12 ">
