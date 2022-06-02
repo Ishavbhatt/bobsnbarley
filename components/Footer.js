@@ -50,19 +50,19 @@ function Footer() {
 
                   <div className="f_icons">
                     <a
-                      href="https://www.facebook.com/HotelWoodrina/"
+                      href="https://www.facebook.com/BobsnbarleyNaddi"
                       target="_blank"
                     >
                       <img src="/facebook.svg" alt="Icon" />
                     </a>
                     <a
-                      href="https://www.instagram.com/hotelwoodrina/"
+                      href="https://www.instagram.com/bobs_n_barley/"
                       target="_blank"
                     >
                       <img src="/instagram.svg" alt="Icon" />
                     </a>
                     <a
-                      href="https://www.youtube.com/channel/UCiB09DuxH1b4Ha7rBDZ3yOQ"
+                      href="https://www.youtube.com/channel/UCJH_RGKKc5IcB8xC4D0Qyig"
                       target="_blank"
                     >
                       <img src="/youtube.svg" alt="Icon" />
