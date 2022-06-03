@@ -38,15 +38,15 @@ export default function Home() {
   const [checkOutDate, setCheckOutDate] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [data, setData] = useState(null);
-  // const [feeds, setFeeds] = useState([]);
+  const [feeds, setFeeds] = useState([]);
   const lat = 32.253631006819326;
   const long = 76.30272032878739;
   const weatherapiKey = process.env.API_KEY;
   const weatherapiLink = process.env.API_LINK;
-  // const instagramLink = process.env.INSTA_LINK;
-  // const instagramToken = process.env.INSTA_TOKEN;
+  const instagramLink = process.env.INSTA_LINK;
+  const instagramToken = process.env.INSTA_TOKEN;
   const weatherapiUrl = `${weatherapiLink}/?lat=${lat}&lon=${long}&units=metric&APPID=${weatherapiKey}`;
-  // const instagramUrl = `${instagramLink}${instagramToken}`;
+  const instagramUrl = `${instagramLink}${instagramToken}`;
 
   const rooms = {
     items: 1,
@@ -103,6 +103,26 @@ export default function Home() {
       },
     },
   };
+  const instaGallery = {
+    stagePadding: 50,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    margin: 10,
+    nav: false,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 3,
+      },
+      1000: {
+        items: 5,
+      },
+    },
+  };
 
   // define handler change function on check-in date
   const handleCheckInDate = (date) => {
@@ -137,23 +157,23 @@ export default function Home() {
       });
   }, []);
 
-  // useEffect(() => {
-  //   const fetchFeeds = () => {
-  //     axios
-  //       .get(instagramUrl)
-  //       .then((res) => {
-  //         setFeeds(res.data.data);
-  //         setIsLoading(false);
-  //       })
-  //       .catch((err) => {
-  //         console.log(err);
-  //       });
-  //   };
-  //   fetchFeeds();
-  // }, []);
+  useEffect(() => {
+    const fetchFeeds = () => {
+      axios
+        .get(instagramUrl)
+        .then((res) => {
+          setFeeds(res.data.data);
+          setIsLoading(false);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+    };
+    fetchFeeds();
+  }, []);
 
   return (
-    <div>
+    <>
       <Head>
         <link rel="icon" href="favicon.png" />
         <title>bobsnbarley</title>
@@ -529,6 +549,40 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </div>
+      <section className="insta_gallery_section common_padding">
+        <div className="container">
+          <div className="row">
+            <Slide bottom>
+              <h2 className="text-center">Follow Us On Instagram</h2>
+            </Slide>
+            <Link href="https://instagram.com/bobs_n_barley"> 
+              <a target="_blank" className="insta-gallery-link">
+                @bobs_n_barley
+              </a>
+            </Link>
+            {isLoading ? (
+              <div className="text-center">
+                <img
+                  className="insta_gallery_spinner"
+                  src="/spinner.svg"
+                  alt="Loading..."
+                />
+              </div>
+            ) : (
+              <OwlCarousel {...instaGallery}>
+                {feeds.map((feed) => (
+                  <img
+                    className="insta-gallery-img"
+                    key={feed.id}
+                    src={feed.media_url}
+                    alt=""
+                  />
+                ))}
+              </OwlCarousel>
+            )}
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
