@@ -106,98 +106,30 @@ function Attractionactivities() {
                 <div className="activity-item">
                   <div className="attraction_column attraction_item_1">
                     <div className="attraction_column_title">
-                    <h3>MASROOR TEMPLE</h3>
+                    <h3>MCLEOD GANJ</h3>
                       <p>
-                        Masroor Temple or Rock-cut Temple at Masrur is an early
-                        8th-century complex of rock-cut Hindu temples in the
-                        Kangra Valley of Beas River in Himachal Pradesh, India.
+                        McLeod Ganj is a suburb of Dharamshala in Kangra
+                        district of Himachal Pradesh, India. It is known as
+                        &#8220;Little Lhasa&#8221; or &#8220;Dhasa&#8221;
+                        because of its large population of Tibetans.
                       </p>
-                     
                     </div>
                   </div>
                 </div>
                 <div className="activity-item">
                   <div className="attraction_column attraction_item_2">
                     <div className="attraction_column_title">
-                    <h3>INDRU NAG TEMPLE</h3>
+                    <h3>Tea Garden</h3>
                       <p>
-                        Indru Nag temple is located at a height that gives a
-                        fantastic view of the whole city, Dharamshala. It is at
-                        a distance of 5 km from Dharamshala Bus Station. It is
-                        accessible by road.
+                      The Tea Garden in Dharamshala is famous for its good quality Tea.It takes 7 minutes to travel from Dharamsala to Tea Garden.
                       </p>
-                     
                     </div>
                   </div>
                 </div>
                 <div className="activity-item">
                   <div className="attraction_column attraction_item_3">
                     <div className="attraction_column_title">
-                    <h3>PONG DAM</h3>
-                      <p>
-                        Pong Dam is also known as Pong Reservoir was created in
-                        1975, by building the highest earth-fill dam in India on
-                        the Beas River in the wetland zone of the Siwalik Hills
-                        of the Kangra district
-                      </p>
-                     
-                    </div>
-                  </div>
-                </div>
-                <div className="activity-item">
-                  <div className="attraction_column attraction_item_4">
-                    <div className="attraction_column_title">
-                      <h3>JAWALA JI TEMPLE</h3>
-                      <p>
-                        One of the oldest known pilgrimage destinations of
-                        Northern India, Jawala Ji Temple is around 32km from
-                        Kangra. The main flame of this temple keeps burning
-                        constantly.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="activity-item">
-                  <div className="attraction_column attraction_item_5">
-                    <div className="attraction_column_title">
-                    <h3>DHARAMKOT</h3>
-                      <p>
-                        Dharamkot is a small hill station in Kangra district in
-                        the state of Himachal Pradesh, India. On the crest of a
-                        hill above McLeodGanj, Dharamkot is a spot with wide
-                        views of the Kangra Valley and the Dhauladhar ranges.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="activity-item">
-                  <div className="attraction_column attraction_item_6">
-                    <div className="attraction_column_title">
-                    <h3>KHANIYARA</h3>
-                      <p>
-                        Khaniyara is a suburb of Dharamshala town, situated in
-                        the foothills of Dhauladhar Mountains, in Kangra
-                        district of the state of Himachal Pradesh.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="activity-item">
-                  <div className="attraction_column attraction_item_6">
-                    <div className="attraction_column_title">
-                    <h3>BIR BILLING</h3>
-                      <p>
-                        Bir Billing is located 30 km from the famous hill town
-                        Palampur in Himachal Pradesh in the northern part of
-                        India.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="activity-item">
-                  <div className="attraction_column attraction_item_6">
-                    <div className="attraction_column_title">
-                      <h3>GOPALPUR ZOO</h3>
+                    <h3>GOPALPUR ZOO</h3>
                       <p>
                         Gopalpur Zoo is situated in Gopalpur village, Kangra
                         district, Himachal Pradesh. It is surrounded by the
@@ -207,14 +139,30 @@ function Attractionactivities() {
                   </div>
                 </div>
                 <div className="activity-item">
+                  <div className="attraction_column attraction_item_4">
+                    <div className="attraction_column_title">
+                      <h3>Dal Lake</h3>
+                      <p>Dal Lake is a small mid-altitude lake(1,775 meters above sea level) situated at a distance of 11 kilometers away from Dharamshala near the village of Tota Rani on Macleodganj Naddi road in district Kangra Himachal Pradesh.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="activity-item">
+                  <div className="attraction_column attraction_item_5">
+                    <div className="attraction_column_title">
+                    <h3>Saurabh Van Vihar</h3>
+                      <p>
+                      Quiet park with leafy walking paths & a boating lake, plus views of the snowy Dhauladhar mountains.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="activity-item">
                   <div className="attraction_column attraction_item_6">
                     <div className="attraction_column_title">
-                      <h3>MCLEOD GANJ</h3>
+                    <h3>Church</h3>
                       <p>
-                        McLeod Ganj is a suburb of Dharamshala in Kangra
-                        district of Himachal Pradesh, India. It is known as
-                        &#8220;Little Lhasa&#8221; or &#8220;Dhasa&#8221;
-                        because of its large population of Tibetans.
+                      St. John in the Wilderness is an Protestant church dedicated to John the Baptist. It was built in 1852 and is located near Dharamshala, India, on the way to McLeod Ganj, at Forsyth Gunj.
                       </p>
                     </div>
                   </div>
@@ -239,52 +187,37 @@ function Attractionactivities() {
                 {...activty}
               >
                 <div className="activity-item">
-                  <div className="attraction_column item_4">
+                  <div className="attraction_column item_1">
                     <div className="attraction_column_title">
                       <h3>HIKING</h3>
                       <p className="attraction-para">
                         The rugged terrain of the jagged mountains of Kangra
                         comes across as the perfect platform for trekkers,
-                        mountaineers, and rock-climbers to venture out for some
-                        action.
+                        mountaineers.
                       </p>
                     </div>
                   </div>
                 </div>
                 <div className="activity-item">
-                  <div className="attraction_column item_5">
-                    <div className="attraction_column_title">
-                      <h3>TREKKING TOUR</h3>
-                      <p className="attraction-para">
-                        The beautiful and mysterious ranges of the Himalayas are
-                        just the ideal sites for you to try your hand at the
-                        trekking spot in Dharamshala. 
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="activity-item">
-                  <div className="attraction_column item_5">
-                    <div className="attraction_column_title">
-                      <h3>BICYCLE & BIKE ON RENT</h3>
-                      <p className="attraction-para">
-                        Best way to explore the mountain routes in Dharamshala
-                        and Kangra valley with the latest model cycle for your
-                        comfort and safety with the proper guideline for your
-                        journey
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="activity-item">
-                  <div className="attraction_column item_4">
+                  <div className="attraction_column item_2">
                     <div className="attraction_column_title">
                       <h3>PARAGLIDING</h3>
                       <p className="attraction-para">
                         Paragliding is an adventure sport of flying para-gliders
                         like birds and enjoys the view of beautiful mountains
                         around Dharamshala &#038; Bir Billing.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="activity-item">
+                  <div className="attraction_column item_3">
+                    <div className="attraction_column_title">
+                      <h3>TREKKING TOUR</h3>
+                      <p className="attraction-para">
+                        The beautiful and mysterious ranges of the Himalayas are
+                        just the ideal sites for you to try your hand at the
+                        trekking spot in Dharamshala. 
                       </p>
                     </div>
                   </div>

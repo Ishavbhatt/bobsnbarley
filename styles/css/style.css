@@ -1243,9 +1243,6 @@ body .header .navbar-collapse {
   font-size: 40px;
   margin: 30px 0 !important;
 }
-.pages-info {
-  /* width: auto; */
-}
 .attraction_column {
   height: 460px;
   background-size: cover;
@@ -2042,32 +2039,35 @@ div.wpcf7 .ajax-loader {
 }
 
 .attraction_item_1 {
-  background-image: url("/dal-lake.jpg");
+  background-image: url("/attractions/mecleodganj.jpg");
 }
 
 .attraction_item_2 {
-  background-image: url("/indru.jpg");
+  background-image: url("/attractions/tea-garden.jpg");
 }
 
 .attraction_item_3 {
-  background-image: url("/pong.jpg");
+  background-image: url("/attractions/gopalpur-zoo.jpg");
 }
 .attraction_item_4 {
-  background-image: url("/Attractions/nature-park.jpg");
+  background-image: url("/attractions/dal-lake.jpg");
 }
 
 .attraction_item_5 {
-  background-image: url("/Attractions/fagu.jpg");
+  background-image: url("/attractions/sourabh-van-bihar.jpg");
 }
 
 .attraction_item_6 {
-  background-image: url("/Attractions/green-valley.jpg");
+  background-image: url("/attractions/church.jpg");
 }
-.item_4 {
+.item_1 {
   background-image: url("/hiking.jpg");
   /* width: 450px; */
 }
-.item_5 {
+.item_2 {
+  background-image: url("/attractions/paragliding.jpg");
+}
+.item_3 {
   background-image: url("/trekking.jpg");
   /* width: 450px; */
 }
