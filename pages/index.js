@@ -336,7 +336,7 @@ export default function Home() {
                         </p>
                         <a
                           className="common_arrow"
-                          href="/room-suites/executive-room"
+                          href="/room-suites/premium-room"
                         >
                           <img src="/arrow-forward-outline.svg" alt="Icon" />
                         </a>
@@ -368,7 +368,7 @@ export default function Home() {
                         </p>
                         <a
                           className="common_arrow"
-                          href="/room-suites/classic-room"
+                          href="/room-suites/super-deluxe-room"
                         >
                           <img src="/arrow-forward-outline.svg" alt="Icon" />
                         </a>
@@ -398,7 +398,7 @@ export default function Home() {
                         </p>
                         <a
                           className="common_arrow"
-                          href="/room-suites/luxury-room"
+                          href="/room-suites/deluxe-room"
                         >
                           <img src="/arrow-forward-outline.svg" alt="Icon" />
                         </a>
@@ -441,7 +441,7 @@ export default function Home() {
                   <div className="testi_profile text-center">
                     <img src="/user.png" alt="Image" />
                     <h5>Madhura Kulkarni</h5>
-                    <p>From Kerala</p>
+                    {/* <p>From Kerala</p> */}
                   </div>
                 </div>
                 <div className="test-item">
@@ -458,7 +458,7 @@ export default function Home() {
                   <div className="testi_profile text-center">
                     <img src="/user.png" alt="Image" />
                     <h5>Ameya Mhatre</h5>
-                    <p>From Kinnaur</p>
+                    {/* <p>From Kinnaur</p> */}
                   </div>
                 </div>
                 <div className="test-item">
@@ -475,7 +475,7 @@ export default function Home() {
                   <div className="testi_profile text-center">
                     <img src="/user.png" alt="Image" />
                     <h5>Mayur upasani</h5>
-                    <p>From Delhi</p>
+                    {/* <p>From Delhi</p> */}
                   </div>
                 </div>
                 <div className="test-item">
@@ -492,7 +492,7 @@ export default function Home() {
                   <div className="testi_profile text-center">
                     <img src="/user.png" alt="Image" />
                     <h5>Prasad Kulkarni</h5>
-                    <p>From Delhi</p>
+                    {/* <p>From Delhi</p> */}
                   </div>
                 </div>
               </OwlCarousel>

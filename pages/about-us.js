@@ -31,8 +31,7 @@ function Aboutus() {
       </section>
 
       <section className="scrollspy-example common_padding w-100">
-        <div className="spy_section">
-          <div className="about_hotel_col">
+        <div className="about_hotel_col spy_section">
           <div className="container">
             <div className="row">
               <div className="col-md-6 col-sm-12 wedding_services_right">
@@ -53,12 +52,9 @@ function Aboutus() {
               </Slide>
             </div>
           </div>
-          </div>
-          
         </div>
 
-        <div className="spy_section">
-          <div className="about_hotel_col">
+        <div className="about_hotel_col spy_section">
           <div className="container">
             <div className="row justify-center">
               <Slide left>
@@ -82,9 +78,7 @@ function Aboutus() {
               {/* </Slide> */}
             </div>
           </div>
-          </div>
         </div>
-        
       </section>
     </>
   );

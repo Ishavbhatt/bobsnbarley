@@ -1174,6 +1174,9 @@ body .header .navbar-collapse {
 .footer_link_black, .footer_link_black a {
   color: #000;
 }
+.footer_link_black, .footer_link_black a:hover {
+  color: #000;
+}
 .common_page_header {
   padding-top: 80px;
 }

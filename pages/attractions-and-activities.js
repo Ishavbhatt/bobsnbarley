@@ -106,37 +106,41 @@ function Attractionactivities() {
                 <div className="activity-item">
                   <div className="attraction_column attraction_item_1">
                     <div className="attraction_column_title">
-                      <h3>BIR BILLING</h3>
+                    <h3>MASROOR TEMPLE</h3>
                       <p>
-                        Bir Billing is located 30 km from the famous hill town
-                        Palampur in Himachal Pradesh in the northern part of
-                        India.
+                        Masroor Temple or Rock-cut Temple at Masrur is an early
+                        8th-century complex of rock-cut Hindu temples in the
+                        Kangra Valley of Beas River in Himachal Pradesh, India.
                       </p>
+                     
                     </div>
                   </div>
                 </div>
                 <div className="activity-item">
                   <div className="attraction_column attraction_item_2">
                     <div className="attraction_column_title">
-                      <h3>KHANIYARA</h3>
+                    <h3>INDRU NAG TEMPLE</h3>
                       <p>
-                        Khaniyara is a suburb of Dharamshala town, situated in
-                        the foothills of Dhauladhar Mountains, in Kangra
-                        district of the state of Himachal Pradesh.
+                        Indru Nag temple is located at a height that gives a
+                        fantastic view of the whole city, Dharamshala. It is at
+                        a distance of 5 km from Dharamshala Bus Station. It is
+                        accessible by road.
                       </p>
+                     
                     </div>
                   </div>
                 </div>
                 <div className="activity-item">
                   <div className="attraction_column attraction_item_3">
                     <div className="attraction_column_title">
-                      <h3>DHARAMKOT</h3>
+                    <h3>PONG DAM</h3>
                       <p>
-                        Dharamkot is a small hill station in Kangra district in
-                        the state of Himachal Pradesh, India. On the crest of a
-                        hill above McLeodGanj, Dharamkot is a spot with wide
-                        views of the Kangra Valley and the Dhauladhar ranges.
+                        Pong Dam is also known as Pong Reservoir was created in
+                        1975, by building the highest earth-fill dam in India on
+                        the Beas River in the wetland zone of the Siwalik Hills
+                        of the Kangra district
                       </p>
+                     
                     </div>
                   </div>
                 </div>
@@ -156,12 +160,12 @@ function Attractionactivities() {
                 <div className="activity-item">
                   <div className="attraction_column attraction_item_5">
                     <div className="attraction_column_title">
-                      <h3>PONG DAM</h3>
+                    <h3>DHARAMKOT</h3>
                       <p>
-                        Pong Dam is also known as Pong Reservoir was created in
-                        1975, by building the highest earth-fill dam in India on
-                        the Beas River in the wetland zone of the Siwalik Hills
-                        of the Kangra district
+                        Dharamkot is a small hill station in Kangra district in
+                        the state of Himachal Pradesh, India. On the crest of a
+                        hill above McLeodGanj, Dharamkot is a spot with wide
+                        views of the Kangra Valley and the Dhauladhar ranges.
                       </p>
                     </div>
                   </div>
@@ -169,12 +173,11 @@ function Attractionactivities() {
                 <div className="activity-item">
                   <div className="attraction_column attraction_item_6">
                     <div className="attraction_column_title">
-                      <h3>INDRU NAG TEMPLE</h3>
+                    <h3>KHANIYARA</h3>
                       <p>
-                        Indru Nag temple is located at a height that gives a
-                        fantastic view of the whole city, Dharamshala. It is at
-                        a distance of 5 km from Dharamshala Bus Station. It is
-                        accessible by road.
+                        Khaniyara is a suburb of Dharamshala town, situated in
+                        the foothills of Dhauladhar Mountains, in Kangra
+                        district of the state of Himachal Pradesh.
                       </p>
                     </div>
                   </div>
@@ -182,11 +185,11 @@ function Attractionactivities() {
                 <div className="activity-item">
                   <div className="attraction_column attraction_item_6">
                     <div className="attraction_column_title">
-                      <h3>MASROOR TEMPLE</h3>
+                    <h3>BIR BILLING</h3>
                       <p>
-                        Masroor Temple or Rock-cut Temple at Masrur is an early
-                        8th-century complex of rock-cut Hindu temples in the
-                        Kangra Valley of Beas River in Himachal Pradesh, India.
+                        Bir Billing is located 30 km from the famous hill town
+                        Palampur in Himachal Pradesh in the northern part of
+                        India.
                       </p>
                     </div>
                   </div>
