@@ -185,8 +185,8 @@ export default function Home() {
             <div className="row">
               <div className="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12">
               <Fade bottom>
-                <h1 className="page__title"> 
-                Experience <span><br />Nature</span><br /> it is purification
+                <h1> 
+                Experience Nature in its <br /> purest form
                 </h1>
                 </Fade>
               </div>
@@ -239,7 +239,7 @@ export default function Home() {
               <div className="banner-book-btn pick-dates popup-book-btn">
                 <div className="common_arrow">
                   <a
-                    href="/contact-us"
+                    href="https://bobsnbarley.bookingjini.com/property"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
